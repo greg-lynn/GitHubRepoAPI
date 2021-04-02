@@ -5,8 +5,11 @@ body * {
 body {
   font-family: monospace;
   font-size: 1.2em;
-  color: rgb(41, 150, 41);
-  background-color: skyblue;
+  color: white;
+  background: rgb(244,244,244);
+  background: linear-gradient(321deg, rgba(244,244,244,1) 0%, rgba(192,193,228,1) 48%, rgba(79,144,244,1) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 0;
   margin: 0;
 }
@@ -28,9 +31,13 @@ h4 {
 
 .search-form{
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label1 {
+  margin-bottom: 10px;
 }
 
 #find-btn{
@@ -65,8 +72,8 @@ h4 {
   box-shadow:0px 3px 5px 1px lightgray;
   padding: 15px;
   font-size: 1rem;
-  
 }
+
 .flex-container {
   max-width: 42rem;
   min-width: 325px;
@@ -88,10 +95,10 @@ ul{
 }
 
 .result-item {
-width: 100%;
-border: 1px solid lightgray;
-padding: .5rem;
-border-radius: 4px;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: .5rem;
+  border-radius: 4px;
 }
 
 .text {
